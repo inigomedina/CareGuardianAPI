@@ -1,0 +1,23 @@
+{
+    "port": 1337,
+    "security": {
+        "tokenLife" : 3600
+    },
+    "mongoose": {
+        "uri": "mongodb://localhost/apiCareGuardian"
+    },
+    "default": {
+        "api": {
+            "version" : "v1"
+        },
+        "user": {
+            "username": "myapi",
+            "password": "abc1234"
+        },
+        "client": {
+            "name": "careguardian",
+            "clientId": "adrian",
+            "clientSecret": "1234"
+        }
+    }
+}
